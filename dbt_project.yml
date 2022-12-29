@@ -1,0 +1,30 @@
+name: 'mikael'
+
+config-version: 2
+version: '0.1'
+
+profile: 'mikael'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analysis"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+    - "target"
+    - "dbt_modules"
+    - "logs"
+
+require-dbt-version: [">=1.0.0", "<2.0.0"]
+
+models:
+  mikael:
+      materialized: table
+      staging:
+        materialized: view
+
+vars:
+  start_date: '2000-01-01'
+  end_date: '2100-01-01'

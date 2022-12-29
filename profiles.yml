@@ -1,0 +1,7 @@
+mikael:
+
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'mikael.duckdb'

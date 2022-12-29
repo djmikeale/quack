@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+
+  - name: eventstreams/account
+    schema: eventstreams
+    description: eventstreams description goes here
+    meta:
+      contains_pii: true
+      owner: "@alice"
+      sub_area: account
+    tags:
+      - ecom
+      - pii
+    tables:
+
+      # Account
+      - name: accountnumbertouser
+        identifier: bankaccount_bankaccountcatalog_accountassignedtouser_v1
