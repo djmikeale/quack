@@ -1,9 +1,10 @@
 #! /bin/bash
 
+dbt run
 # create new folder if not exists, empty folder if exists
 # get all tables in specific schema
 
-FILES="customers orders"
+FILES="customers orders jobs"
 
 # export data and convert to .md format
 for FILE in $FILES
@@ -19,4 +20,4 @@ for FILE in $FILES
         awk -v secondline="$SECONDLINE" 'NR==2{print secondline}1' $FOLDER_FILE.csv > $FOLDER_FILE.md
 done
 
-
+# build functionality to replace specific things in overall CV with content from files being iterated over
