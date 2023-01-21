@@ -3,6 +3,7 @@
 _This repo is a self-contained dwh, utilizing DuckDB, some shell scripting, and more._
 
 Built on top of [dbt's duckDB jaffle shop](https://github.com/dbt-labs/jaffle_shop_duckdb)
+
 ## 
 
 <details>
@@ -24,7 +25,7 @@ What this repo _is not_:
 <summary>
 
 ## What's in this repo?
-
+  
 </summary>
 
 Contents
@@ -75,13 +76,16 @@ The raw data consists of customers, orders, and payments, with the following ent
 
 </details>
 
-## Running this project
-Prerequisities: Python >= 3.5
-
-> Run `dbt` as fast as possible in a single copy and paste motion!
+# Get your hands dirty
 
 <details>
-<summary>POSIX bash/zsh</summary>
+<summary>
+
+## Run this project</summary>
+
+Prerequisities: Python >= 3.5
+
+### bash/zsh:
 
 ```shell
 git clone https://github.com/djmikeale/quack.git
@@ -95,10 +99,8 @@ dbt build
 dbt docs generate
 dbt docs serve
 ```
-</details>
 
-<details>
-<summary>Windows cmd.exe</summary>
+### Windows cmd.exe:
 
 ```shell
 git clone https://github.com/djmikeale/quack.git
@@ -112,42 +114,21 @@ dbt build
 dbt docs generate
 dbt docs serve
 ```
+
 </details>
 
 <details>
 <summary>
 
-## Query the data
+## Generate and view the documentation for the project
 
 </summary>
 
-    Launch a DuckDB command-line interface (CLI):
-    ```shell
-    duckcli jaffle_shop.duckdb
-    ```
+```shell
+dbt docs generate
+dbt docs serve
+```
 
-    Run a query at the prompt and exit:
-    ```
-    select * from customers where customer_id = 42;
-    exit;
-    ```
-
-    Alternatively, use a single-liner to perform the query:
-    ```shell
-    duckcli jaffle_shop.duckdb -e "select * from customers where customer_id = 42"
-    ```
-    or:
-    ```shell
-    echo 'select * from customers where customer_id = 42' | duckcli jaffle_shop.duckdb
-    ```
-
-</details>
-<details>
-<summary>Generate and view the documentation for the project</summary>
-    ```shell
-    dbt docs generate
-    dbt docs serve
-    ```
 </details>
 </details>
 <details>
@@ -157,8 +138,25 @@ dbt docs serve
 
 </summary>
 
-Some options:
-- [duckcli](https://pypi.org/project/duckcli/)
+Launch a DuckDB command-line interface (CLI):
+```shell
+duckcli jaffle_shop.duckdb
+```
+Run a query at the prompt and exit:
+```
+select * from customers where customer_id = 42;
+exit;
+```
+Alternatively, use a single-liner to perform the query:
+```shell
+duckcli jaffle_shop.duckdb -e "select * from customers where customer_id = 42"
+```
+or:
+```shell
+echo 'select * from customers where customer_id = 42' | duckcli jaffle_shop.duckdb
+```
+
+Furthermore, the following options exist:
 - [DuckDB CLI](https://duckdb.org/docs/installation/?environment=cli)
 - [How to set up DBeaver SQL IDE for DuckDB](https://duckdb.org/docs/guides/sql_editors/dbeaver)
 
