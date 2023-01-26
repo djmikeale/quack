@@ -4,8 +4,8 @@
 # create new folder if not exists, empty folder if exists
 
 # get all tables in specific schema
-FILES="customers orders jobs"
-#File to be used as template containing placeholders
+FILES="jobs orders"
+#read content of template into variable 
 TEMPLATE=$(<template)
 
 #create temp template file if not exists
@@ -18,6 +18,9 @@ DESTINATION="insertinto"
 for FILE in $FILES
     do
         FOLDER_FILE=$(echo target/$FILE)
+        
+        # Convert sql table into markdown table
+
         # export table 
         duckcli mikael.duckdb -e "COPY $FILE TO '$FOLDER_FILE.csv' ( DELIMITER '|', HEADER )"
         # get first line of file
@@ -26,11 +29,15 @@ for FILE in $FILES
         SECONDLINE=$(echo "$FIRSTLINE" | sed -E 's/[^|]+/---/g')
         # insert string on second line, save as new .md file
         awk -v secondline="$SECONDLINE" 'NR==2{print secondline}1' $FOLDER_FILE.csv > $FOLDER_FILE.md
-        # set file as source
-        SOURCE=$(<$FOLDER_FILE.md)
-        # replace placeholders in temp template  
-        echo "${TEMPLATE//\{\{$FILE\}\}/$SOURCE}" > $DESTINATION
-done
+        
+        # Replace placeholders in template with markdown tables
 
-# replace content in destination file with content from temp template.
+        # read content of md file into SOURCE variable
+        SOURCE=$(<$FOLDER_FILE.md)
+        # replace placeholders in template TEMPLATE  
+        echo "${TEMPLATE//\{\{$FILE\}\}/$SOURCE}" > $DESTINATION
+        # read updated template content into template variable in case of more loops.
+        TEMPLATE=$(<$DESTINATION)
+        
+done
 
