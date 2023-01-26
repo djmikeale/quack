@@ -29,8 +29,8 @@ What this repo _is not_:
 </summary>
 
 Contents
-- CV
-  - jobs overview
+- [My CV](CV/CV.md)
+  - jobs overview ✔️
   - jobs pivoted w descriptions
   - technologies used
   - interests
