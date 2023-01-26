@@ -1,15 +1,19 @@
-Jeg hedder Mikael. Her er min erfaring:
+Hi, I'm Mikael. This CV has been generated through a DWH. 
 
-company_name|position|from_date|to_date|█ = 2 months
+Here's my work experience:
+
+Company Name|position|Start Time|End Time|Duration
 ---|---|---|---|---
-Labster|Intern|2013-08-01|2013-12-31|██
-Labster|Project Manager|2014-01-01|2016-07-30|███████████████
-Neurons Inc.|Analyst|2016-08-01|2018-03-01|█████████
-Netcompany|Data Management Consultant|2018-09-01|2020-12-31|█████████████
-Netcompany|Senior Data Consultant|2021-01-01|2022-01-31|██████
-Lunar|Senior Analytics Engineer|2022-05-01||████➝ 
+Labster|Intern|Aug 2013|Dec 2013|██
+Labster|Project Manager|Jan 2014|Jul 2016|███████████████
+Neurons Inc.|Analyst|Aug 2016|Mar 2018|█████████
+Netcompany|Data Management Consultant|Sep 2018|Dec 2020|█████████████
+Netcompany|Senior Data Consultant|Jan 2021|Jan 2022|██████
+Lunar|Senior Analytics Engineer|May 2022|Present|████ 
 
 
+Here's gonna be some other cool stuff, for now you'll have to make do with the dbt template table:
+ 
 order_id|customer_id|order_date|status|credit_card_amount|coupon_amount|bank_transfer_amount|gift_card_amount|amount
 ---|---|---|---|---|---|---|---|---
 1|1|2018-01-01|returned|10|0|0|0|10

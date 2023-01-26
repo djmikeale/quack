@@ -1,9 +1,6 @@
 #! /bin/bash
 
-# dbt run
-# create new folder if not exists, empty folder if exists
-
-# get all tables in specific schema
+# get all tables in specific schema TODO GREP all {{keyword}} instances in template file to FILES variable
 FILES="jobs orders"
 #read content of template into variable 
 TEMPLATE=$(<CV_template.md)
@@ -17,12 +14,12 @@ DESTINATION="CV.md"
 # export data and convert to .md format
 for FILE in $FILES
     do
-        FOLDER_FILE=$(echo target/$FILE)
+        FOLDER_FILE=$(echo ../target/$FILE)
         
         # Convert sql table into markdown table
 
         # export table 
-        duckcli mikael.duckdb -e "COPY $FILE TO '$FOLDER_FILE.csv' ( DELIMITER '|', HEADER )"
+        duckcli ../mikael.duckdb -e "COPY $FILE TO '$FOLDER_FILE.csv' ( DELIMITER '|', HEADER )"
         # get first line of file
         FIRSTLINE=$(head -n 1 $FOLDER_FILE.csv)
         # replace all non-pipe "|" strings with "---"

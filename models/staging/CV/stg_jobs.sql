@@ -6,6 +6,7 @@ with source as (
 
 clean as (
     select
+        company_name || position AS job_id,
         company_name,
         position,
         from_date,
