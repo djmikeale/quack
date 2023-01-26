@@ -6,13 +6,13 @@
 # get all tables in specific schema
 FILES="jobs orders"
 #read content of template into variable 
-TEMPLATE=$(<template)
+TEMPLATE=$(<CV_template.md)
 
 #create temp template file if not exists
 #copy content from template into temp template
 
 #Destination file with placeholders filled out
-DESTINATION="insertinto"
+DESTINATION="CV.md"
 
 # export data and convert to .md format
 for FILE in $FILES

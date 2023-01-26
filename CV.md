@@ -111,5 +111,3 @@ order_id|customer_id|order_date|status|credit_card_amount|coupon_amount|bank_tra
 29|57|2018-01-31|completed|0|0|12|0|12
 44|66|2018-02-17|completed|0|0|0|11|11
 50|51|2018-02-23|completed|26|0|0|0|26 
-
-{{customers}}

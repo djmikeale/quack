@@ -4,5 +4,3 @@ Jeg hedder Mikael. Her er min erfaring:
 
 
 {{orders}} 
-
-{{customers}}
