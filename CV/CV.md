@@ -4,12 +4,12 @@ Here's my work experience:
 
 Company Name|position|Start Time|End Time|Duration
 ---|---|---|---|---
-Labster|Intern|Aug 2013|Dec 2013|██
-Labster|Project Manager|Jan 2014|Jul 2016|███████████████
-Neurons Inc.|Analyst|Aug 2016|Mar 2018|█████████
-Netcompany|Data Management Consultant|Sep 2018|Dec 2020|█████████████
+Lunar|Senior Analytics Engineer|May 2022|Present|████
 Netcompany|Senior Data Consultant|Jan 2021|Jan 2022|██████
-Lunar|Senior Analytics Engineer|May 2022|Present|████ 
+Netcompany|Data Management Consultant|Sep 2018|Dec 2020|█████████████
+Neurons Inc.|Analyst|Aug 2016|Mar 2018|█████████
+Labster|Project Manager|Jan 2014|Jul 2016|███████████████
+Labster|Intern|Aug 2013|Dec 2013|██ 
 
 
 Here's gonna be some other cool stuff, for now you'll have to make do with the dbt template table:

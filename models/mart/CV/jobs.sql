@@ -26,4 +26,4 @@ final as (
     from jobs_transformed
 )
 
-select * exclude from_date from final order by from_date ASC
+select * exclude from_date from final order by from_date DESC
