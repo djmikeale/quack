@@ -1,0 +1,58 @@
+name: Platform Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+    
+jobs:
+  build-macos:
+      name: Validate Getting Started works on macOS
+      runs-on: macos-latest
+      steps:
+        - uses: actions/checkout@v2
+        - name: Set up Python
+          uses: actions/setup-python@v1
+          with:
+            python-version: "3.8.x"
+        - name: Full Deploy Commands
+          run: |
+            python3 -m venv venv
+            source venv/bin/activate
+            venv/bin/python3 -m pip install --upgrade pip
+            python3 -m pip install -r requirements.txt
+            source venv/bin/activate
+            which dbt
+            dbt --version
+            dbt deps
+            dbt debug
+            dbt build
+            dbt docs generate
+            duckcli mikael.duckdb -e "select * exclude Duration from jobs where position = 'Senior Analytics Engineer'"
+          shell: bash
+
+  build-windows-powershell:
+      name: Validate Getting Started works on Windows PowerShell
+      runs-on: windows-latest
+      steps:
+        - uses: actions/checkout@v2
+        - name: Set up Python
+          uses: actions/setup-python@v1
+          with:
+            python-version: "3.8.x"
+        - name: Full Deploy Commands
+          run: |
+            python -m venv venv
+            venv\Scripts\Activate.ps1
+            python -m pip install --upgrade pip
+            python -m pip install -r requirements.txt
+            venv\Scripts\Activate.ps1
+            Get-Command dbt
+            dbt --version
+            dbt deps
+            dbt debug
+            dbt build
+            dbt docs generate
+            duckcli mikael.duckdb -e "select * exclude Duration from jobs where position = 'Senior Analytics Engineer'"
+          shell: powershell
