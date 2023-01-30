@@ -25,6 +25,7 @@ jobs:
             source venv/bin/activate
             which dbt
             dbt --version
+            dbt deps
             dbt debug
             dbt build
             dbt docs generate
@@ -49,6 +50,7 @@ jobs:
             venv\Scripts\Activate.ps1
             Get-Command dbt
             dbt --version
+            dbt deps
             dbt debug
             dbt build
             dbt docs generate
