@@ -42,4 +42,6 @@
     "findrelated.applyRulesets": [
         "sql"
     ],
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.rulers": [80],
 }
