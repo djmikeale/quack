@@ -1,0 +1,45 @@
+{
+    "python.pythonPath": "./venv/bin/python",
+    "files.associations": {
+        // the pattern on the left side can be whatever you want: e.g.
+        "**/quack/**/*.sql": "jinja-sql", 
+        "**/quack/**/*.yaml": "jinja-yaml",
+         "**/quack/**/*.yml": "jinja-yaml",
+        "**/quack/**/docs/**/*.md": "jinja-md",
+        // don't format models in `target/` dir
+        "**/target/**": "",
+        },
+        // the vscode-dbt docs say you may need this
+    "editor.quickSuggestions": {
+        "strings": true
+        },
+    // this is so you can easily jump to your compiled SQL files
+    "findrelated.workspaceRulesets": [
+        {
+            "name": "sql",
+            "rules": [
+                {
+                    "pattern": "^(.*/)?models/(.*/)?(.+\\.sql)$",
+                    "locators": [
+                        "**/compiled/**/$3"
+                    ]
+                },
+                {
+                    "pattern": "^(.*/)?compiled/(.*/)?(.+\\.sql)$",
+                    "locators": [
+                        "**/run/**/$3"
+                    ]
+                },
+                {
+                    "pattern": "^(.*/)?run/(.*/)?(.+\\.sql)$",
+                    "locators": [
+                        "**/models/**/$3"
+                    ]
+                }
+            ]
+        }
+    ],
+    "findrelated.applyRulesets": [
+        "sql"
+    ]
+}
