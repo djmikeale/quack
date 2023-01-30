@@ -2,7 +2,7 @@ Hi, I'm Mikael. This CV has been generated through a DWH.
 
 Here's my work experience:
 
-Company Name|position|Start Time|End Time|Duration
+Company Name|Position|Start Time|End Time|duration
 ---|---|---|---|---
 Lunar|Senior Analytics Engineer|May 2022|Present|████
 Netcompany|Senior Data Consultant|Jan 2021|Jan 2022|██████
