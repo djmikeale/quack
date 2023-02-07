@@ -12,106 +12,31 @@ Labster|Project Manager|Jan 2014|Jul 2016|████████████�
 Labster|Intern|Aug 2013|Dec 2013|██ 
 
 
-Here's gonna be some other cool stuff, for now you'll have to make do with the dbt template table:
- 
-order_id|customer_id|order_date|status|credit_card_amount|coupon_amount|bank_transfer_amount|gift_card_amount|amount
----|---|---|---|---|---|---|---|---
-1|1|2018-01-01|returned|10|0|0|0|10
-2|3|2018-01-02|completed|20|0|0|0|20
-3|94|2018-01-04|completed|0|1|0|0|1
-4|50|2018-01-05|completed|0|25|0|0|25
-5|64|2018-01-05|completed|0|0|17|0|17
-6|54|2018-01-07|completed|6|0|0|0|6
-7|88|2018-01-09|completed|16|0|0|0|16
-8|2|2018-01-11|returned|23|0|0|0|23
-9|53|2018-01-12|completed|0|0|0|23|23
-10|7|2018-01-14|completed|0|0|26|0|26
-11|99|2018-01-14|completed|27|0|0|0|27
-12|59|2018-01-15|completed|1|0|0|0|1
-13|84|2018-01-17|completed|5|0|14|0|19
-14|40|2018-01-17|returned|0|0|3|0|3
-15|25|2018-01-17|completed|0|22|0|0|22
-16|39|2018-01-18|completed|10|0|0|0|10
-17|71|2018-01-18|completed|0|0|2|0|2
-18|64|2018-01-20|returned|13|0|0|0|13
-19|54|2018-01-22|completed|0|0|0|6|6
-20|20|2018-01-23|completed|0|0|15|0|15
-21|71|2018-01-23|completed|12|0|0|0|12
-22|86|2018-01-24|completed|0|0|8|0|8
-23|22|2018-01-26|return_pending|0|0|0|23|23
-24|3|2018-01-27|completed|0|26|0|0|26
-25|51|2018-01-28|completed|22|16|20|0|58
-26|32|2018-01-28|completed|30|0|0|0|30
-27|94|2018-01-29|completed|23|0|0|0|23
-28|8|2018-01-29|completed|0|0|19|0|19
-30|69|2018-02-02|completed|13|0|0|0|13
-31|16|2018-02-02|completed|12|0|0|0|12
-32|28|2018-02-04|completed|3|0|0|0|3
-33|42|2018-02-04|completed|22|0|0|0|22
-34|38|2018-02-06|completed|0|0|15|0|15
-35|80|2018-02-08|completed|29|0|0|0|29
-36|85|2018-02-10|completed|0|0|9|0|9
-37|1|2018-02-10|completed|23|0|0|0|23
-38|51|2018-02-10|completed|15|0|0|0|15
-39|26|2018-02-11|completed|0|0|8|0|8
-40|33|2018-02-13|completed|14|0|0|0|14
-41|99|2018-02-14|completed|17|0|0|0|17
-42|92|2018-02-16|completed|0|17|0|0|17
-43|31|2018-02-17|completed|0|0|0|18|18
-45|22|2018-02-17|completed|0|0|5|0|5
-46|6|2018-02-19|completed|0|0|8|0|8
-47|50|2018-02-20|completed|22|0|0|0|22
-48|27|2018-02-21|completed|0|0|3|0|3
-49|35|2018-02-21|completed|15|0|0|0|15
-51|71|2018-02-24|completed|30|0|0|0|30
-52|54|2018-02-25|return_pending|0|0|15|0|15
-53|34|2018-02-26|completed|3|0|0|0|3
-54|54|2018-02-26|completed|18|0|11|0|29
-55|18|2018-02-27|completed|29|0|0|0|29
-56|79|2018-02-28|completed|4|0|0|0|4
-57|93|2018-03-01|completed|0|0|2|0|2
-58|22|2018-03-01|completed|0|18|0|6|24
-59|30|2018-03-02|completed|0|0|0|28|28
-60|12|2018-03-03|completed|4|0|0|0|4
-61|63|2018-03-03|completed|0|0|16|0|16
-62|57|2018-03-05|completed|0|0|0|14|14
-63|70|2018-03-06|completed|29|0|0|0|29
-64|13|2018-03-07|completed|0|0|26|0|26
-65|26|2018-03-08|completed|0|0|0|0|0
-66|36|2018-03-10|completed|28|0|0|0|28
-67|79|2018-03-11|completed|19|0|4|0|23
-68|53|2018-03-11|completed|16|0|0|0|16
-69|3|2018-03-11|completed|19|0|0|0|19
-70|8|2018-03-12|completed|26|0|0|0|26
-71|42|2018-03-12|shipped|5|0|0|0|5
-72|30|2018-03-14|shipped|29|0|0|0|29
-73|19|2018-03-16|completed|0|0|3|0|3
-74|9|2018-03-17|shipped|30|0|0|0|30
-75|69|2018-03-18|completed|19|0|0|0|19
-76|25|2018-03-20|completed|0|2|0|0|2
-77|35|2018-03-21|shipped|0|0|19|0|19
-78|90|2018-03-23|shipped|0|0|26|0|26
-79|52|2018-03-23|shipped|27|0|0|0|27
-80|11|2018-03-23|shipped|0|0|0|3|3
-81|76|2018-03-23|shipped|0|2|0|0|2
-82|46|2018-03-24|shipped|8|0|0|0|8
-83|54|2018-03-24|shipped|1|0|0|0|1
-84|70|2018-03-26|placed|0|0|25|0|25
-85|47|2018-03-26|shipped|0|0|17|0|17
-86|68|2018-03-26|placed|0|23|0|0|23
-87|46|2018-03-27|placed|26|0|0|30|56
-88|91|2018-03-27|shipped|29|0|0|0|29
-89|21|2018-03-28|placed|0|0|22|0|22
-90|66|2018-03-30|shipped|0|0|2|0|2
-91|47|2018-03-31|placed|19|0|0|0|19
-92|84|2018-04-02|placed|0|2|15|0|17
-93|66|2018-04-03|placed|0|0|0|26|26
-94|63|2018-04-03|placed|0|7|0|0|7
-95|27|2018-04-04|placed|0|24|0|0|24
-96|90|2018-04-06|placed|0|0|0|17|17
-97|89|2018-04-07|placed|0|0|14|0|14
-98|41|2018-04-07|placed|0|0|10|0|10
-99|85|2018-04-09|placed|24|0|0|0|24
-29|57|2018-01-31|completed|0|0|12|0|12
-44|66|2018-02-17|completed|0|0|0|11|11
-50|51|2018-02-23|completed|26|0|0|0|26 
+Here's my skills:
+
+skill|Competence Level Example|Description|Type|Subtype
+---|---|---|---|---
+Amazon Web Services/Redshift|Experience with S3 buckets, athena, redshift; functions, optimization etc.|A cloud-based data warehousing service offered by Amazon.|Computer program|database
+Github|issue + pr templates, access rights, github actions.|A web-based version control repository hosting service.|Computer program|CI/CD
+Google Cloud Platform/BigQuery|Worked on migration from Redshift to Bigquery; knowledge of optimizing queries for performance and cost|A cloud-based data warehousing service offered by Google.|Computer program|database
+JMP|Lots of statistical analyses for loads of projects|A software for data visualization and statistical analysis by SAS.|Computer program|BI/data viz
+Jinja|omg I love jinja. Made some macros for dbt projects.|A modern and designer-friendly templating language for Python, modelled after Django templates|Programming language|
+MS Excel|I know vlookup. I also know that I really shouldn't use vlookup. |A spreadsheet program offered by Microsoft.|Computer program|Miscellaneous
+MS PowerPoint|Made 50+ narrative-driven presentations for clients; made my own ribbon to work faster||Computer program|BI/data viz
+PowerBI|Built several dashboards and taught others, I think I finally cracked the nut of all the different filter contexts.|A business intelligence and data visualization tool offered by Microsoft.|Computer program|BI/data viz
+SQL|I still need to look up syntax for pivoting every time, but have experience with tSQL, redshift, duckdb, and others.|A standard language for managing and manipulating relational databases|Programming language|
+Shell(Bash)|Built a cat game! Check out my meow repository.|A Unix shell and command language written for the GNU Project.|Programming language|
+Snowflake|Fiddled around with it for a month and went through the SnowPro Core Certification|A cloud-based data warehousing service.|Computer program|database
+Tabular Editor|Gave talks in Netcompany on how this tool can be used; saved ourselves 100s of hours on consolidating marts using Tabular Editor rather than SSIS|A tool for editing Microsoft Analysis Services Tabular models.|Computer program|data transformation
+dbt - Data build tool|This repository|A command-line tool that helps data analysts develop and maintain data models in a consistent and organized way.|Computer program|data transformation
+Confluence||A team collaboration tool offered by Atlassian.|Computer program|collaboration/data management
+JIRA||A project management tool offered by Atlassian.|Computer program|collaboration/data management
+JSL - JMP scripting language|Built macros to automatize analysis and graph generation, saving 100s of hours.|A scripting language for automating JMP data visualization and analysis tasks.|Programming language|
+Looker||A business intelligence and data visualization tool offered by Looker.|Computer program|BI/data viz
+MDS - Master Data Services|Set up MDS for a customer including governance and training, and integrated it in data pipelines.|A Microsoft service for creating and managing a central repository of data used to ensure data consistency and integrity across an organization.|Computer program|data transformation
+Microsoft Visio||A diagramming and vector graphics application.|Computer program|Miscellaneous
+Python|Coding in python was part of my job interview in Lunar.|A high-level, interpreted, and general-purpose programming language that emphasizes code readability and a syntax which allows programmers to express concepts in fewer lines of code|Programming language|
+SSAS - SQL Server Analysis Services|Built a few data marts|A platform for creating and managing online analytical processing (OLAP) and data mining models.|Computer program|data transformation
+SSIS - SQL Server Integration Services|Built +100 models and created scalable architecture with parameters.|A platform for building data integration and workflow solutions. It includes a set of tools and services to extract, transform, and load data.|Computer program|data transformation
+SSMS - Microsoft/SQL Server Management Studio|Completed course: Microsoft Technology Associate: Database Administration Fundamentals (MTA)|A relational database management system (RDBMS) offered by Microsoft.|Computer program|database
+Sharepoint||A web-based collaboration and document management platform offered by Microsoft.|Computer program|collaboration/data management 

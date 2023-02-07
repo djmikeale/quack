@@ -6,11 +6,11 @@ with source as (
 
 clean as (
     select
-        company_name || position AS job_id,
         company_name,
         position,
         from_date,
-        NULLIF(to_date,'') AS to_date
+        company_name || position as job_id,
+        NULLIF(to_date, '') as to_date
     from source
 )
 

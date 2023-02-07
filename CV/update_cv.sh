@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # get all tables in specific schema TODO GREP all {{keyword}} instances in template file to FILES variable
-FILES="jobs orders"
+FILES="jobs skillzz"
 #read content of template into variable 
 TEMPLATE=$(<CV_template.md)
 

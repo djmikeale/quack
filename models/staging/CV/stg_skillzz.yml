@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: stg_skillzz
+    description: |
+      # Description
+      The tools I've used which might be relevant for you to know.
+      
+      ## Lol
+      Got the following error when calling the source raw_skills so naturally had to change it:
+      Binder Error: Table 'raw_skills' does not have a column with name 'level_example'
+    columns:
+      - name: skill
+        description: ""
+        tests:
+          - unique
+          - not_null
+
+      - name: abbreviation
+        description: | 
+          If the abbreviation is more common than the skill name, it's listed here.
+
+          ...because SQL Server Integration Services doesn't roll of your tongue very easily.
+
+      - name: level_example
+        description: "low-effort attempt at quantifying my knowledge of the skill"
+
+      - name: type
+        description: "overall categorization of the skill"
+        tests:
+          - accepted_values:
+              values: ['Computer program','Programming language']
+          - not_null
+
+      - name: subtype
+        description: ""
+
+      - name: skill_description
+        description: "ChatGPT generated description of each tool"

@@ -1,0 +1,37 @@
+ordering,skill,abbreviation,level_example,type,subtype,skill_description
+2,Microsoft/SQL Server Management Studio,SSMS,Completed course: Microsoft Technology Associate: Database Administration Fundamentals (MTA),Computer program,database,A relational database management system (RDBMS) offered by Microsoft.
+1,Data build tool,dbt,This repository,Computer program,data transformation,A command-line tool that helps data analysts develop and maintain data models in a consistent and organized way.
+2,SQL Server Integration Services,SSIS,Built +100 models and created scalable architecture with parameters.,Computer program,data transformation,"A platform for building data integration and workflow solutions. It includes a set of tools and services to extract, transform, and load data."
+2,SQL Server Analysis Services,SSAS,Built a few data marts,Computer program,data transformation,A platform for creating and managing online analytical processing (OLAP) and data mining models.
+1,Tabular Editor,,Gave talks in Netcompany on how this tool can be used; saved ourselves 100s of hours on consolidating marts using Tabular Editor rather than SSIS,Computer program,data transformation,A tool for editing Microsoft Analysis Services Tabular models.
+2,Master Data Services,MDS,"Set up MDS for a customer including governance and training, and integrated it in data pipelines.",Computer program,data transformation,A Microsoft service for creating and managing a central repository of data used to ensure data consistency and integrity across an organization.
+1,Snowflake,,Fiddled around with it for a month and went through the SnowPro Core Certification,Computer program,database,A cloud-based data warehousing service.
+1,Google Cloud Platform/BigQuery,,Worked on migration from Redshift to Bigquery; knowledge of optimizing queries for performance and cost,Computer program,database,A cloud-based data warehousing service offered by Google.
+1,Amazon Web Services/Redshift,,"Experience with S3 buckets, athena, redshift; functions, optimization etc.",Computer program,database,A cloud-based data warehousing service offered by Amazon.
+1,PowerBI,,"Built several dashboards and taught others, I think I finally cracked the nut of all the different filter contexts.",Computer program,BI/data viz,A business intelligence and data visualization tool offered by Microsoft.
+3,Tableau,,,Computer program,BI/data viz,A business intelligence and data visualization tool offered by Tableau Software.
+2,Looker,,,Computer program,BI/data viz,A business intelligence and data visualization tool offered by Looker.
+1,JMP,,Lots of statistical analyses for loads of projects,Computer program,BI/data viz,A software for data visualization and statistical analysis by SAS.
+1,MS PowerPoint,,Made 50+ narrative-driven presentations for clients; made my own ribbon to work faster,Computer program,BI/data viz,
+3,Azure DevOps,,,Computer program,CI/CD,A collection of services provided by Microsoft for managing the software development lifecycle.
+3,Bitbucket,,,Computer program,CI/CD,A web-based version control repository hosting service owned by Atlassian.
+1,Github,,"issue + pr templates, access rights, github actions.",Computer program,CI/CD,A web-based version control repository hosting service.
+3,Jenkins,,,Computer program,CI/CD,An open-source automation server that helps automate parts of the software development process.
+3,tSQLt,,,Computer program,data testing,An open-source framework for unit testing SQL Server databases.
+2,Sharepoint,,,Computer program,collaboration/data management,A web-based collaboration and document management platform offered by Microsoft.
+2,JIRA,,,Computer program,collaboration/data management,A project management tool offered by Atlassian.
+2,Confluence,,,Computer program,collaboration/data management,A team collaboration tool offered by Atlassian.
+1,MS Excel,,"I know vlookup. I also know that I really shouldn't use vlookup. ",Computer program,Miscellaneous,A spreadsheet program offered by Microsoft.
+3,Salesforce,,,Computer program,Miscellaneous,A cloud-based customer relationship management (CRM) service.
+3,Photoshop,,I'm sure AI's now are better than I used to be in photoshopping back then ;),Computer program,Miscellaneous,A raster graphics editor developed and published by Adobe Systems
+3,Enterprise Architect,,,Computer program,Miscellaneous,"A visual modeling, design, and development tool for software and systems."
+2,Microsoft Visio,,,Computer program,Miscellaneous,A diagramming and vector graphics application.
+2,JMP scripting language,JSL,"Built macros to automatize analysis and graph generation, saving 100s of hours.",Programming language,,A scripting language for automating JMP data visualization and analysis tasks.
+3,C,,"Enough experience to know about segfault, not enough experience to solve it. ",Programming language,,"A general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope, and recursion, with a static type system"
+2,Python,,Coding in python was part of my job interview in Lunar.,Programming language,,"A high-level, interpreted, and general-purpose programming language that emphasizes code readability and a syntax which allows programmers to express concepts in fewer lines of code"
+1,Jinja,,omg I love jinja. Made some macros for dbt projects.,Programming language,,"A modern and designer-friendly templating language for Python, modelled after Django templates"
+3,HTML,,,Programming language,,A markup language used for structuring and displaying content on the World Wide Web
+3,CSS,,,Programming language,,A style sheet language used for describing the presentation of a document written in a markup language
+3,Javascript,JS,,Programming language,,A programming language that is commonly used to create interactive effects within web browsers
+1,SQL,,"I still need to look up syntax for pivoting every time, but have experience with tSQL, redshift, duckdb, and others.",Programming language,,A standard language for managing and manipulating relational databases
+1,Shell(Bash),,Built a cat game! Check out my meow repository.,Programming language,,A Unix shell and command language written for the GNU Project.
