@@ -4,15 +4,17 @@
 
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
+		"samuelcolvin.jinjahtml",
 		"innoverio.vscode-dbt-power-user",
+		"eamodio.gitlens",
+		"takumii.markdowntable",
+		"jebbs.plantuml",
 		"mechatroner.rainbow-csv",
-        "yzhang.markdown-all-in-one",
+		"simonsiefke.svg-preview", //for visualizing plantuml output
 		"redhat.vscode-yaml",
-		"amodio.find-related",
-		"dorzey.vscode-sqlfluff"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
-		
+
 	]
 }
