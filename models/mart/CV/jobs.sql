@@ -24,7 +24,7 @@ final as (
 
         strftime(from_date, '%b %Y') as "Start Time",
         coalesce(strftime(to_date, '%b %Y'), 'Present') as "End Time",
-        repeat('█', months_employment) as duration
+        repeat('█', cast(months_employment as int)) as duration
     from jobs_transformed
 )
 
