@@ -1,7 +1,7 @@
-company_name,position,from_date,to_date
-Labster,Project Manager,2014-01-01,2016-07-30
+company_name,position,from_date,to_date,company_description
+Labster,Project Manager,2014-01-01,2016-07-30,
 Labster,Intern,2013-08-01,2013-12-31
-Neurons Inc.,Analyst,2016-08-01,2018-03-01
+Neurons Inc.,Analyst,2016-08-01,2018-03-01,"Combining brain scanning (EEG), eyetracking, and self reporting to help companies understand their customers minds. I analysed, interpreted, and translated complex data into actionable insights, for e.g. SoMe, FMCG, finance industries."
 Netcompany,Data Management Consultant,2018-09-01,2020-12-31
 Netcompany,Senior Data Consultant,2021-01-01,2022-01-31
-Lunar,Senior Analytics Engineer,2022-05-01,
+Lunar,Senior Analytics Engineer,2022-05-01,,"Making banking sexy again!"
