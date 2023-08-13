@@ -11,7 +11,7 @@ with
             unnest(work_experience).location as location,
             unnest(work_experience).start_date as from_date,
             unnest(work_experience).end_date as to_date,
-        from cv
+        from source
     ),
 
     transform as (

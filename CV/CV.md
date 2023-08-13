@@ -1,4 +1,4 @@
-Hi, I'm Mikael. This CV has been generated through a DWH. 
+Hi, I'm Mikael. This CV has been generated through a DWH.
 
 Here's my work experience:
 
@@ -9,7 +9,7 @@ Netcompany|Senior Data Consultant|Jan 2021|Jan 2022|██████
 Netcompany|Data Management Consultant|Sep 2018|Dec 2020|██████████████
 Neurons Inc.|Analyst|Aug 2016|Mar 2018|██████████
 Labster|Project Manager|Jan 2014|Jul 2016|███████████████
-Labster|Intern|Aug 2013|Dec 2013|██ 
+Labster|Intern|Aug 2013|Dec 2013|██
 
 
 Here's my skills:
@@ -39,4 +39,4 @@ Python|Coding in python was part of my job interview in Lunar.|A high-level, int
 SSAS - SQL Server Analysis Services|Built a few data marts|A platform for creating and managing online analytical processing (OLAP) and data mining models.|Computer program|data transformation
 SSIS - SQL Server Integration Services|Built +100 models and created scalable architecture with parameters.|A platform for building data integration and workflow solutions. It includes a set of tools and services to extract, transform, and load data.|Computer program|data transformation
 SSMS - Microsoft/SQL Server Management Studio|Completed course: Microsoft Technology Associate: Database Administration Fundamentals (MTA)|A relational database management system (RDBMS) offered by Microsoft.|Computer program|database
-Sharepoint||A web-based collaboration and document management platform offered by Microsoft.|Computer program|collaboration/data management 
+Sharepoint||A web-based collaboration and document management platform offered by Microsoft.|Computer program|collaboration/data management
