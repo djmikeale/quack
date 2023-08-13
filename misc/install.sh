@@ -8,5 +8,3 @@ source venv/bin/activate
 duckcli mikael.duckdb -e "INSTALL 'json'; LOAD 'json';"
 read -s -p "Installations completed (hopefully lol). Press Enter to build dbt project and test that the documentation server is working"
 dbt build
-dbt docs generate
-dbt docs serve
