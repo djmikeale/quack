@@ -1,8 +1,5 @@
 with
-    source as (
-        select * from 'cv/source_data/cv.json'
-
-    ),
+    source as (select * from {{ ref("raw_cv") }}),
 
     clean as (
         select
@@ -14,12 +11,7 @@ with
         from source
     ),
 
-    transform as (
-        select
-            hash(company_name || position) as job_id,
-            *
-        from clean
-    )
+    transform as (select hash(company_name || position) as job_id, * from clean)
 
 select *
 from transform

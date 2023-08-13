@@ -1,10 +1,14 @@
-Hi, I'm Mikael. This CV has been generated through a DWH.
+Hi, I'm Mikael. This CV has been generated through this DWH.
 
-Here's my work experience:
+
+# Work experience:
 
 {{jobs}}
 
+# Education & my single certification lol
 
-Here's my skills:
+{{education}}
+
+# And my hardcore skillz
 
 {{skills}}
