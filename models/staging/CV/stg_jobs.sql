@@ -1,6 +1,6 @@
 with
     source as (
-        select * from 'cv/source_data/cv.json'
+        select * from {{ ref('raw_cv') }}
 
     ),
 

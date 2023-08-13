@@ -12,6 +12,15 @@ Labster|Project Manager|Jan 2014|Jul 2016|████████████�
 Labster|Intern|Aug 2013|Dec 2013|██
 
 
+Here's my most recent education information:
+
+institution|location|title|year
+---|---|---|---
+Microsoft|Denmark|MTA: Database Administration Fundamentals|2018
+Copenhagen Business School|Denmark|MSc in Economics and Business Administration (Strategic Market Creation)|2017
+Copenhagen Business School|Denmark|BSc Business, Asian Language and Culture|2013
+Nanyang Business School|Singapore|Exchange semester|2012
+
 Here's my skills:
 
 Skill|Competence Level Example|Description|Type|Subtype

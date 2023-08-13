@@ -1,5 +1,5 @@
 with source as (
-    select * from 'cv/source_data/raw_skills.csv'
+    select * from 'models/raw/source_data/raw_skills.csv'
 ),
 
 clean as (

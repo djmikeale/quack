@@ -12,7 +12,7 @@
                 "end_date": "2018-11-01",
                 "institution": "Microsoft",
                 "location": "Denmark",
-                "degree": "Microsoft Technology Associate: Database Administration Fundamentals (MTA)",
+                "title": "MTA: Database Administration Fundamentals",
                 "type": "Certification"
             },
             {
@@ -20,7 +20,7 @@
                 "end_date": "2017-06-01",
                 "institution": "Copenhagen Business School",
                 "location": "Denmark",
-                "degree": "MSc in Economics and Business Administration (Strategic Market Creation)",
+                "title": "MSc in Economics and Business Administration (Strategic Market Creation)",
                 "type": "University",
                 "details": [
                     "GPA: 10.3 out of 12",
@@ -33,6 +33,7 @@
                 "end_date": "2012-12-31",
                 "institution": "Nanyang Business School",
                 "location": "Singapore",
+                "title": "Exchange semester",
                 "type": "University",
                 "details": [
                     "Courses: Negotiation, Strategic Management, HR Management, Linear Programming",
@@ -44,7 +45,7 @@
                 "end_date": "2013-06-01",
                 "institution": "Copenhagen Business School",
                 "location": "Denmark",
-                "degree": "BSc Business, Asian Language and Culture",
+                "title": "BSc Business, Asian Language and Culture",
                 "type": "University",
                 "details": [
                     "This programme combines business expertise with Asian political, economic and cultural insight and Chinese language skills."
@@ -55,7 +56,7 @@
                 "end_date": "2010-06-01",
                 "institution": "Copenhagen Business School",
                 "location": "Denmark",
-                "degree": "Access course for BSc Business, Asian Language and Culture",
+                "title": "Access course for BSc Business, Asian Language and Culture",
                 "type": "University",
                 "details": [
                     "Learned to read and write 1500 Chinese characters in a year, and combine those into 2000 words in Mandarin Chinese"
@@ -64,8 +65,9 @@
             {
                 "start_date": "2006-08-01",
                 "end_date": "2009-06-01",
-                "institution": "Nyborg Gymnasium, Denmark",
-                "degree": "International Baccalaureate",
+                "institution": "Nyborg Gymnasium",
+                "location": "Denmark",
+                "title": "International Baccalaureate",
                 "type": "High School",
                 "details": [
                     "Top 10% of the class",
