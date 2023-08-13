@@ -1,6 +1,7 @@
-Hi, I'm Mikael. This CV has been generated through a DWH.
+Hi, I'm Mikael. This CV has been generated through this DWH.
 
-Here's my work experience:
+
+# Work experience:
 
 Company Name|Position|Start Time|End Time|duration
 ---|---|---|---|---
@@ -11,17 +12,16 @@ Neurons Inc.|Analyst|Aug 2016|Mar 2018|██████████
 Labster|Project Manager|Jan 2014|Jul 2016|███████████████
 Labster|Intern|Aug 2013|Dec 2013|██
 
+# Education & my single certification lol
 
-Here's my most recent education information:
+institution|title
+---|---
+2018 - Microsoft 🇩🇰|MTA: Database Administration Fundamentals
+2017 - Copenhagen Business School 🇩🇰|MSc in Economics and Business Administration (Strategic Market Creation)
+2013 - Copenhagen Business School 🇩🇰|BSc Business, Asian Language and Culture
+2012 - Nanyang Business School 🇸🇬|Exchange semester
 
-institution|location|title|year
----|---|---|---
-Microsoft|Denmark|MTA: Database Administration Fundamentals|2018
-Copenhagen Business School|Denmark|MSc in Economics and Business Administration (Strategic Market Creation)|2017
-Copenhagen Business School|Denmark|BSc Business, Asian Language and Culture|2013
-Nanyang Business School|Singapore|Exchange semester|2012
-
-Here's my skills:
+# And my hardcore skillz
 
 Skill|Competence Level Example|Description|Type|Subtype
 ---|---|---|---|---
