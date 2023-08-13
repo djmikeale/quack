@@ -1,0 +1,45 @@
+[
+    {
+        "personal_info": {
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "john.doe@example.com",
+            "phone": "123-456-7890",
+            "address": "123 Main St, City, Country"
+        },
+        "education": [
+            {
+                "degree": "Bachelor of Science",
+                "major": "Computer Science",
+                "school": "University of XYZ",
+                "graduation_year": 2020
+            }
+        ],
+        "work_experience": [
+            {
+                "title": "Intern",
+                "company": "Labster",
+                "location": "Denmark",
+                "start_date": "2013-08-01",
+                "end_date": "2013-12-31",
+                "responsibilities": []
+            }
+        ],
+        "skills": [
+            "Programming languages: Java, Python",
+            "Web development: HTML, CSS, JavaScript",
+            "Version control: Git",
+            "Problem solving and critical thinking"
+        ],
+        "languages": [
+            {
+                "language": "English",
+                "proficiency": "Fluent"
+            },
+            {
+                "language": "Spanish",
+                "proficiency": "Intermediate"
+            }
+        ]
+    }
+]

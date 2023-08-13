@@ -1,11 +1,11 @@
 version: 2
 
 models:
-  - name: stg_skillzz
+  - name: stg_skills
     description: |
       # Description
       The tools I've used which might be relevant for you to know.
-      
+
       ## Lol
       Got the following error when calling the source raw_skills so naturally had to change it:
       Binder Error: Table 'raw_skills' does not have a column with name 'level_example'
@@ -17,7 +17,7 @@ models:
           - not_null
 
       - name: abbreviation
-        description: | 
+        description: |
           If the abbreviation is more common than the skill name, it's listed here.
 
           ...because SQL Server Integration Services doesn't roll of your tongue very easily.

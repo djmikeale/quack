@@ -5,10 +5,10 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-    
+
 jobs:
   build-macos:
-      name: Validate Getting Started works on macOS
+      name: Validate build on macOS
       runs-on: macos-latest
       steps:
         - uses: actions/checkout@v2
@@ -33,7 +33,7 @@ jobs:
           shell: bash
 
   build-windows-powershell:
-      name: Validate Getting Started works on Windows PowerShell
+      name: Validate build on Windows PowerShell
       runs-on: windows-latest
       steps:
         - uses: actions/checkout@v2
