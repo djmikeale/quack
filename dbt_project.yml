@@ -7,7 +7,6 @@ profile: 'mikael'
 
 model-paths: ["models"]
 test-paths: ["tests"]
-analysis-paths: ["analysis"]
 macro-paths: ["macros"]
 
 target-path: "target"
@@ -21,8 +20,12 @@ require-dbt-version: [">=1.0.0", "<2.0.0"]
 models:
   mikael:
       materialized: table
+      +docs:
+        node_color: 'gold'
       staging:
         materialized: view
+        +docs:
+          node_color: 'silver'
 
 vars:
   start_date: '2000-01-01'

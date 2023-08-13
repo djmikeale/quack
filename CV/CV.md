@@ -5,7 +5,7 @@ Here's my work experience:
 Company Name|Position|Start Time|End Time|duration
 ---|---|---|---|---
 Lunar|Senior Analytics Engineer|May 2022|Present|████████
-Netcompany|Senior Data Consultant|Jan 2021|Jan 2022|██████
+Netcompany|Senior Data Management Consultant|Jan 2021|Jan 2022|██████
 Netcompany|Data Management Consultant|Sep 2018|Dec 2020|██████████████
 Neurons Inc.|Analyst|Aug 2016|Mar 2018|██████████
 Labster|Project Manager|Jan 2014|Jul 2016|███████████████
