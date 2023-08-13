@@ -1,18 +1,76 @@
 [
     {
         "personal_info": {
-            "first_name": "John",
-            "last_name": "Doe",
-            "email": "john.doe@example.com",
-            "phone": "123-456-7890",
-            "address": "123 Main St, City, Country"
+            "first_name": "Mikael",
+            "last_name": "Thorup",
+            "linkedIn": "https://www.linkedin.com/in/mikaelthorup/",
+            "location": "Copenhagen, Denmark"
         },
         "education": [
             {
-                "degree": "Bachelor of Science",
-                "major": "Computer Science",
-                "school": "University of XYZ",
-                "graduation_year": 2020
+                "start_date": null,
+                "end_date": "2018-11-01",
+                "institution": "Microsoft",
+                "location": "Denmark",
+                "degree": "Microsoft Technology Associate: Database Administration Fundamentals (MTA)",
+                "type": "Certification"
+            },
+            {
+                "start_date": "2015-08-01",
+                "end_date": "2017-06-01",
+                "institution": "Copenhagen Business School",
+                "location": "Denmark",
+                "degree": "MSc in Economics and Business Administration (Strategic Market Creation)",
+                "type": "University",
+                "details": [
+                    "GPA: 10.3 out of 12",
+                    "Minor in Behavioral Neuroscience and Economy",
+                    "Thesis (12): Predicting the Success of Kickstarter Campaigns by Combining EEG, eyetracking, and Self Reports."
+                ]
+            },
+            {
+                "start_date": "2012-08-01",
+                "end_date": "2012-12-31",
+                "institution": "Nanyang Business School",
+                "location": "Singapore",
+                "type": "University",
+                "details": [
+                    "Courses: Negotiation, Strategic Management, HR Management, Linear Programming",
+                    "GPA: 4.1 out of 5"
+                ]
+            },
+            {
+                "start_date": "2010-08-01",
+                "end_date": "2013-06-01",
+                "institution": "Copenhagen Business School",
+                "location": "Denmark",
+                "degree": "BSc Business, Asian Language and Culture",
+                "type": "University",
+                "details": [
+                    "This programme combines business expertise with Asian political, economic and cultural insight and Chinese language skills."
+                ]
+            },
+            {
+                "start_date": "2009-08-01",
+                "end_date": "2010-06-01",
+                "institution": "Copenhagen Business School",
+                "location": "Denmark",
+                "degree": "Access course for BSc Business, Asian Language and Culture",
+                "type": "University",
+                "details": [
+                    "Learned to read and write 1500 Chinese characters in a year, and combine those into 2000 words in Mandarin Chinese"
+                ]
+            },
+            {
+                "start_date": "2006-08-01",
+                "end_date": "2009-06-01",
+                "institution": "Nyborg Gymnasium, Denmark",
+                "degree": "International Baccalaureate",
+                "type": "High School",
+                "details": [
+                    "Top 10% of the class",
+                    "High-level subjects: Chemistry, Danish, Economics"
+                ]
             }
         ],
         "work_experience": [
