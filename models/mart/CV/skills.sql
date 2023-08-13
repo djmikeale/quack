@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{ ref('stg_skillzz') }}
+    select * from {{ ref('stg_skills') }}
 
 ),
 

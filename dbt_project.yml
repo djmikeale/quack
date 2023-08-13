@@ -6,7 +6,6 @@ version: '0.1'
 profile: 'mikael'
 
 model-paths: ["models"]
-seed-paths: ["seeds"]
 test-paths: ["tests"]
 analysis-paths: ["analysis"]
 macro-paths: ["macros"]

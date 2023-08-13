@@ -1,7 +1,5 @@
 with source as (
-    {#- read from seed #}
-    select * from {{ ref('raw_skillzz') }}
-
+    select * from 'cv/source_data/raw_skills.csv'
 ),
 
 clean as (

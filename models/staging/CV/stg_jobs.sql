@@ -1,6 +1,6 @@
 with
     source as (
-        select * from cv
+        select * from 'cv/source_data/cv.json'
 
     ),
 
