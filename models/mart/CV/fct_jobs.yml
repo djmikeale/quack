@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: fct_jobs
+    description:  "model to be used for exposing most relevant work experience, in the cv"
+    tests:
+    - dbt_utils.unique_combination_of_columns:
+        combination_of_columns:
+          - company name
+          - start time
+        quote_columns: true
+
+    columns:
+      - name: company name
+        description: "name of the company"
+
+      - name: position
+        description: "my title during the work"
+
+      - name: start time
+        description: "when I started working at the position within the company"
+
+      - name: end time
+        description: "when I had my last work day within the company"
+
+      - name: duration
+        description: "The duration of my work within the company, formatted as a barchart. 1 bar = 2 months."

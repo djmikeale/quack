@@ -4,8 +4,8 @@ models:
   - name: stg_jobs
     description: "All of my jobs"
     columns:
-      - name: job_id
-        description: "Company + Position"
+      - name: id
+        description: "hash of company + position to generate a unique key"
         tests:
           - unique
           - not_null

@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_date_spine
+    description: "contains all dates as specified between the start_date variable until today+6 months into the future"
+    columns:
+      - name: range
+        description: "the date"
+        tests:
+          - unique
+          - not_null

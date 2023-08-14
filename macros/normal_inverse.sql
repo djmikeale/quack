@@ -18,15 +18,16 @@ sqrt(
 {%- endmacro -%}
 
 {%- macro join_norminverse(n_iterations, mean, stdev) -%}
+{% set half_iterations = n_iterations / 2 %}
 (
-SELECT 
-    UNNEST(range({{n_iterations}})) AS iteration,
+SELECT
+    UNNEST(range(cast({{half_iterations}} as int))) AS iteration,
     {{norminverse_cos(mean,stdev)}} AS norm_inverse
 
 UNION ALL
 
-SELECT 
-    unnest(range({{n_iterations}})),
+SELECT
+    unnest(range(cast({{half_iterations}} as int))) + {{half_iterations}},
     {{norminverse_sin(mean,stdev)}}
 )
 {%- endmacro -%}

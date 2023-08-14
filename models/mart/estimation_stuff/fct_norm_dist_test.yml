@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: fct_norm_dist_test
+    description: "test table for mvp monte carlo simulations"
+    columns:
+      - name: id
+        description: "unique identifier; hash of year_id concatenated with iteration"
+        tests:
+          - unique
+          - not_null
+
+      - name: year_id
+        description: "sample input, i.e. a year"
+
+      - name: iteration
+        description: "each input would run over a number of iterations, e.g. 100 iterations per year"
+
+      - name: norm_inverse
+        description: "calculating the normal inverse, given a mean and a standard deviation"

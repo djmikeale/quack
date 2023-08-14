@@ -29,7 +29,7 @@ jobs:
             dbt debug
             dbt build
             dbt docs generate
-            duckcli mikael.duckdb -e "select * exclude Duration from jobs where position = 'Senior Analytics Engineer'"
+            duckcli mikael.duckdb -e "select * exclude Duration from fct_jobs where position = 'Senior Analytics Engineer'"
           shell: bash
 
   build-windows-powershell:
@@ -54,5 +54,5 @@ jobs:
             dbt debug
             dbt build
             dbt docs generate
-            duckcli mikael.duckdb -e "select * exclude Duration from jobs where position = 'Senior Analytics Engineer'"
+            duckcli mikael.duckdb -e "select * exclude Duration from fct_jobs where position = 'Senior Analytics Engineer'"
           shell: powershell

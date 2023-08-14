@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: fct_education
+    description: "model to be used for exposing all of my formal learning, in the cv"
+    columns:
+      - name: institution
+        description: "year, institution, and country flag"
+        tests:
+          - unique
+          - not_null
+
+      - name: title
+        description: "Title of the degree/certification"

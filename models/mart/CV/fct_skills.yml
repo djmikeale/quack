@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: fct_skills
+    description: "model to be used for exposing technologies and programs I've worked with, in the cv. Either the most liked, or the ones I am most experienced working with."
+    columns:
+      - name: skill
+        description: "the name/abbreviation of the skill"
+        tests:
+          - unique
+          - not_null
+
+      - name: competence level example
+        description: "low-effort attempt at quantifying my knowledge of the skill"
+
+      - name: description
+        description: "ChatGPT generated description of each tool"
+
+      - name: type
+        description: "overall categorization of the skill"
+
+      - name: subtype
+        description: "further breakdown of type into more specific categories"
