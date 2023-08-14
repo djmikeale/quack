@@ -30,3 +30,7 @@ models:
 vars:
   start_date: '2000-01-01'
   end_date: '2100-01-01'
+
+dispatch:
+  - macro_namespace: dbt
+    search_order: ['dbt_project_evaluator', 'dbt']
