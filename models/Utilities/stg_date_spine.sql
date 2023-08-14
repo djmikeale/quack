@@ -1,7 +1,7 @@
 select *
 from
     range(
-        date '{{ var("start_date") }}',
+        date {{ beginning_of_universe() }},
         current_date + interval 6 month,
         interval '1' day
     )
