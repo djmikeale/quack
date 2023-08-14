@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_education
+    description: "all of my formal learning"
+    columns:
+      - name: id
+        description: "unique table identifier"
+        tests:
+          - unique
+          - not_null
+
+      - name: type
+        description: "type of institution"
+
+      - name: institution
+        description: "which corporation/institute that provided the education"
+
+      - name: location
+        description: "country in which the institute is placed"
+
+      - name: title
+        description: "title of the degree/certificate"
+
+      - name: start_date
+        description: "when I started the education"
+
+      - name: end_date
+        description: "When I finished the degree, NULL indicating I didn't finish it"
+
+      - name: details
+        description: "Other potentially relevant information about the degree"

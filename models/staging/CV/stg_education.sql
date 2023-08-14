@@ -17,7 +17,7 @@ with
         from source
     ),
 
-    transform as (select hash(end_date) as job_id, * from clean)
+    transform as (select hash(end_date) as id, * from clean)
 
 select *
 from transform

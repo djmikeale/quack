@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: norm_dist_test
+    description: "test table for mvp monte carlo simulations"
+    columns:
+      - name: year_id
+        description: "sample input, i.e. a year"
+
+      - name: iteration
+        description: "each input would run over a number of iterations, e.g. 100 iterations per year"
+
+      - name: norm_inverse
+        description: "calculating the normal inverse, given a mean and a standard deviation"

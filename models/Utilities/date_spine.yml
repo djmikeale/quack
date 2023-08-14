@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: date_spine
+    description: "contains all dates as specified between the start_date variable until today+6 months into the future"
+    columns:
+      - name: range
+        description: "the date"

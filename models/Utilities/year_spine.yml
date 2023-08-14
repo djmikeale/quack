@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: year_spine
+    description: "contains all years between the start_date variable and the end_date variable"
+    columns:
+      - name: year_id
+        description: "the year"

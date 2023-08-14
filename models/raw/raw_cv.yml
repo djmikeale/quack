@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: raw_cv
+    description: "raw import of the cv.json file"
+    columns:
+      - name: personal_info
+        description: "general information about me + contact info"
+
+      - name: education
+        description: "experience gained from formal education"
+
+      - name: work_experience
+        description: "experience gained from places of work"
+
+      - name: skills
+        description: "tools, programs, frameworks, techniques and the like, that I've used had experience with"
+
+      - name: languages
+        description: "languages, i.e. the type which are spoken by humans"
