@@ -6,6 +6,9 @@ models:
     columns:
       - name: personal_info
         description: "general information about me + contact info"
+        tests:
+          - unique
+          - not_null
 
       - name: education
         description: "experience gained from formal education"
