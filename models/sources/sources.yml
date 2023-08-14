@@ -1,7 +1,7 @@
 sources:
   - name: raw
     meta:
-        external_location: "models/raw/source_data/{name}"
+        external_location: "models/sources/data/{name}"
     tables:
       - name: cv.json
         description: general information about me - contact info, education, work experience, and languages spoken
