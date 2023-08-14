@@ -23,7 +23,7 @@ institution|title
 
 # And my hardcore skillz
 
-Skill|Competence Level Example|Description|Type|Subtype
+skill|Competence Level Example|Description|Type|Subtype
 ---|---|---|---|---
 Amazon Web Services/Redshift|Experience with S3 buckets, athena, redshift; functions, optimization etc.|A cloud-based data warehousing service offered by Amazon.|Computer program|database
 Github|issue + pr templates, access rights, github actions.|A web-based version control repository hosting service.|Computer program|CI/CD

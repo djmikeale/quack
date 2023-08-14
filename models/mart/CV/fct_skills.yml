@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: skills
+  - name: fct_skills
     description: "model to be used for exposing technologies and programs I've worked with, in the cv. Either the most liked, or the ones I am most experienced working with."
     columns:
       - name: skill

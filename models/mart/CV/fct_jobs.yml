@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: jobs
+  - name: fct_jobs
     description:  "model to be used for exposing most relevant work experience, in the cv"
     tests:
     - dbt_utils.unique_combination_of_columns:

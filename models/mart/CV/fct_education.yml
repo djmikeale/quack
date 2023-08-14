@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: education
+  - name: fct_education
     description: "model to be used for exposing all of my formal learning, in the cv"
     columns:
       - name: institution
