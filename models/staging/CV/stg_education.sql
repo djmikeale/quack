@@ -1,5 +1,5 @@
 with
-    source as (select * from {{ ref("raw_cv") }}),
+    source as (select * from {{ source('raw', 'cv.json') }}),
 
     clean as (
         select

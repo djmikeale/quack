@@ -1,5 +1,5 @@
 with
-    source as (select * from 'models/raw/source_data/raw_skills.csv'),
+    source as (select * from {{ source('raw', 'skills.csv') }}),
 
     clean as (
         select
