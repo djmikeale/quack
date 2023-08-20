@@ -1,0 +1,20 @@
+@startgantt
+hide footbox
+projectscale yearly zoom 0.5
+
+Project starts 2013-01-01
+[Labster] starts 2013-08-01
+[Labster] ends 2016-07-30
+[Neurons] starts 2016-08-01
+[Neurons] ends 2018-03-01
+[Netcompany] starts 2018-09-01
+[Netcompany] ends 2022-01-31
+[Lunar (ongoing)] starts 2022-05-01
+[Lunar (ongoing)] ends %date("YYYY-MM-dd")
+[Neurons] displays on same row as [Labster]
+[Netcompany] displays on same row as [Labster]
+[Lunar (ongoing)] displays on same row as [Labster]
+[Masters degree] happens on 2017-06-01
+[Bachelors degree] happens on 2013-06-01
+[Bachelors degree] displays on same row as [Masters degree]
+@endgantt
