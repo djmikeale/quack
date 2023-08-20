@@ -5,3 +5,5 @@ mikael:
     dev:
       type: duckdb
       path: 'mikael.duckdb'
+      extensions:
+        - json
