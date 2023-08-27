@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_countries_emojis
+    description: |
+      mapping table between country ISO id, name, and flag emoji. Will use this for something food-related. probably.
+
+    columns:
+      - name: iso
+        description: ISO-3166-1 identifier of the country.
+        tests:
+          - unique
+          - not_null
+
+      - name: emoji
+        description: the corresponding flag emoji
+        tests:
+          - unique
+          - not_null
+
+      - name: name
+        description: Official name of the country
+        tests:
+          - unique
+          - not_null

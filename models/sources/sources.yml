@@ -6,3 +6,7 @@ sources:
       - name: cv.json
         description: general information about me - contact info, education, work experience, and languages spoken
       - name: skills.csv
+      - name: countries_emojis.csv
+        description: iso codes, country names, and their emojis. downloaded from https://apps.timwhitlock.info/emoji/tables/iso3166
+        meta:
+          external_location: "read_csv('models/sources/data/countries_emojis.csv', header=True, AUTO_DETECT=TRUE)"
