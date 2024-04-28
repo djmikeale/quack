@@ -4,7 +4,7 @@ with
     jobs as (
         select
             unnest(work_experience).location as country,
-            left(unnest(work_experience).start_date,4) as year
+            left(unnest(work_experience).start_date, 4) as year
         from source
     ),
 
@@ -17,10 +17,9 @@ with
 
     unioning as (
         select * from jobs
-        --union all
-        --select * from countries_visited
+    -- union all
+    -- select * from countries_visited
     ),
-
 
     transform as (select hash(country || year) as id, * from unioning)
 
