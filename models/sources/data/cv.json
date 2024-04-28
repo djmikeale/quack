@@ -87,7 +87,10 @@
             {
                 "title": "Project Manager",
                 "company": "Labster",
-                "location": "Denmark",
+                "location": [
+                    "Denmark",
+                    "Indonesia"
+                ],
                 "start_date": "2014-01-01",
                 "end_date": "2016-07-30",
                 "responsibilities": []
@@ -95,6 +98,7 @@
             {
                 "title": "Analyst",
                 "company": "Neurons Inc.",
+                "location": "Denmark",
                 "start_date": "2016-08-01",
                 "end_date": "2018-03-01",
                 "responsibilities": [
@@ -134,12 +138,38 @@
         ],
         "languages": [
             {
+                "language": "Danish",
+                "proficiency": "Fluent"
+            },
+            {
                 "language": "English",
                 "proficiency": "Fluent"
             },
             {
-                "language": "Spanish",
-                "proficiency": "Intermediate"
+                "language": "Mandarin Chinese",
+                "proficiency": "Rusty; used to be fluent"
+            },
+            {
+                "language": "Ukrainian",
+                "proficiency": "I'm on day 650 on Duolingo"
+            }
+        ],
+        "countries_visited": [
+            {
+                "location": "Sweden",
+                "year": [2012, 2014, 2015, 2016, 2017, 2019,2020,2021,2022]
+            },
+            {
+                "location": "Norway",
+                "year": [2015,2012]
+            },
+            {
+                "location": "Germany",
+                "year": [2018,2023]
+            },
+            {
+                "location": "Netherlands",
+                "year": [2015, 2017, 2018]
             }
         ]
     }
