@@ -1,0 +1,20 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-yaml
+
+-   repo: local
+    hooks:
+    -   id: validate-meta-dict-in-dbt-docs # unique id for this hook
+        name: Validate Meta Dictionaries dbt Model yml's # shown in pre-commit run
+        description: | # for documentation purposes only
+            Validates meta dicts in dbt models' corresponding yml files.
+            Note this is only to be run for ymls in the models folder, as specified with the regex below.
+        files: '^models/.*\.yml$'
+        language: python
+        entry: python scripts/meta_dict_validator.py
+        # verbose: true # uncomment for debugging
+        additional_dependencies: ['schema==0.7.5', 'PyYAML==6.0.1']
