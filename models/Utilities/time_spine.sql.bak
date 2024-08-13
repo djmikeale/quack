@@ -1,0 +1,35 @@
+--redshift sql, might need adjustment to work with duckdb
+
+with
+  seconds as (select (substring(current_date + (n || ' seconds')::interval,12,8)) as id
+              from generate_series(1,86399) n),
+
+  transform as (select
+                  id,
+                  current_date + id::interval,
+                  substring(id,7,2) as second,
+                  substring(id,4,2) as minute,
+                  substring(id,1,2) as hour,
+                  substring(id,1,5) as hour_minute,
+                  second = '00' as is_minute,
+                  is_minute and mod(minute,5) = 0 as is_five_minute,
+                  is_minute and mod(minute,10) = 0 as is_ten_minute,
+                  is_minute and mod(minute,15) = 0 as is_quarter,
+                  is_minute and mod(minute,30) = 0 as is_half_hour,
+                  is_minute and mod(minute,60) = 0 as is_hour,
+                  id = '00:00:00' as is_day_start,
+                  id = '23:59:59' as is_day_end,
+                  hour::int * 3600 + minute::int * 60 + second::int as elapsed_seconds,
+                  (hour < 12) as is_midnight_to_noon,
+                  (hour >= 12) as is_afternoon_to_midnight,
+                  case
+                    when hour between 0 and 5   then 'Night'
+                    when hour between 6 and 11  then 'Morning'
+                    when hour between 12 and 17 then 'Afternoon'
+                    when hour between 18 and 23 then 'Evening'
+                    end as period_of_day
+                from seconds)
+
+
+select *
+from transform where is_quarter
